@@ -5,6 +5,8 @@ RUN apt-get update \
     python3 \
     python3-pip \
     gcc-arm-none-eabi \
+    g++ \
+    gcc \
   && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /app
