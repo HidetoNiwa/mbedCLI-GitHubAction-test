@@ -3,7 +3,7 @@ set -eux
 
 apt update
 
-apt upgrade -Y
+apt upgrade -y
 
 apt install gcc-arm-none-eabi -y
 
