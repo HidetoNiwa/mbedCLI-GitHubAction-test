@@ -3,6 +3,8 @@ set -eux
 
 pip3 install mbed-cli
 
+pip install pyyaml jsonschema mbed_cloud_sdk jinja2 mbed_ls mbed_host_tests mbed_greentea pyelftools manifest_tool icetea pycryptodome pyusb cmsis_pack_manager psutil cryptography click cbor
+
 mbed compile -t GCC_ARM -m NUCLEO_F446RE
 
 today=`date "+%Y%m%d%H%M%S"`
