@@ -7,8 +7,6 @@ RUN apt-get update \
     gcc-arm-none-eabi \
   && rm -rf /var/lib/apt/lists/*
 
-RUN pip install mbed-cli
-
 RUN mktexlsr && mkdir -p /app
 WORKDIR /app
 

@@ -1,6 +1,8 @@
 #!/bin/bash
 set -eux
 
+pip3 install mbed-cli
+
 mbed compile -t GCC_ARM -m NUCLEO_F446RE
 
 today=`date "+%Y%m%d%H%M%S"`
