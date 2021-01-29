@@ -7,7 +7,7 @@ RUN apt-get update \
     gcc-arm-none-eabi \
   && rm -rf /var/lib/apt/lists/*
 
-RUN mktexlsr && mkdir -p /app
+RUN mkdir -p /app
 WORKDIR /app
 
 ADD entrypoint.sh /entrypoint.sh
