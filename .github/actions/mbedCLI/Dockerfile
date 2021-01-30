@@ -3,6 +3,9 @@ FROM ubuntu:latest
 RUN  apt-get update \
   && apt-get install -y --no-install-recommends \
     curl \
+    build-essential \
+    clang \
+    libboost-all-dev \
     python3 \
     python3-pip \
     gcc-arm-none-eabi \

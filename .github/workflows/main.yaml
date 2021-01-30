@@ -12,11 +12,6 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
-      - name: arm-none-eabi-gcc
-        uses: fiam/arm-none-eabi-gcc@v1.0.2
-        with:
-          release: '7-2018-q2' # The arm-none-eabi-gcc release to use.
-      - run: arm-none-eabi-gcc -v
       - name: Build docker image
         uses: HidetoNiwa/mbedCLI-GitHubAction-test/.github/actions/mbedCLI@master
         env:

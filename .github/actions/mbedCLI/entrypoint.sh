@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz
+
 pip3 install mbed-cli
 
 pip3 install pyyaml jsonschema==2.6.0 mbed_cloud_sdk jinja2 mbed_ls mbed_host_tests mbed_greentea pyelftools manifest_tool icetea pycryptodome pyusb cmsis_pack_manager psutil cryptography click cbor prettytable==0.7.2
