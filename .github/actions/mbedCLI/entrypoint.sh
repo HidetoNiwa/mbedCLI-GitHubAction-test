@@ -1,6 +1,8 @@
 #!/bin/bash
-set -eux
-
+wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz
+tar -xjvf gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2
+tree
+export PATH=$PATH:/app/gcc-arm-none-eabi-7-2018-q2-update/bin/
 pip3 install mbed-cli
 
 pip3 install pyyaml jsonschema mbed_cloud_sdk jinja2 mbed_ls mbed_host_tests mbed_greentea pyelftools manifest_tool icetea pycryptodome pyusb cmsis_pack_manager psutil cryptography click cbor
