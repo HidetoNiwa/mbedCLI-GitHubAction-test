@@ -1,6 +1,6 @@
 #!/bin/bash
 wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz
-tar -xjvf gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2
+tar -xjvf gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz
 tree
 export PATH=$PATH:/app/gcc-arm-none-eabi-7-2018-q2-update/bin/
 pip3 install mbed-cli
