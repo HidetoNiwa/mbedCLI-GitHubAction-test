@@ -5,8 +5,7 @@ RUN apt-get update \
     curl \
     python3 \
     python3-pip \
-    wget \
-    tree \
+    
   && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /app
