@@ -9,6 +9,7 @@ RUN  apt-get update \
     libboost-all-dev \
     python3 \
     python3-pip \
+    lib32stdc++6 \
     gcc-arm-none-eabi \
     
   && rm -rf /var/lib/apt/lists/*
